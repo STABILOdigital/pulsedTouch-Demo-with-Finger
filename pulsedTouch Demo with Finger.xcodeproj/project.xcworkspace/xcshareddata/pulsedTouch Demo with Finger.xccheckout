@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>19BB4B5E-8EFF-49D2-AF35-C8F3FAFE8478</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FA1B44A858A3C7CC3542547A02AB4F5F1286C7AE</key>
+		<string>192.168.0.33:Froebel/iOS8</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>pulsedTouch Demo with Finger/pulsedTouch Demo with Finger.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FA1B44A858A3C7CC3542547A02AB4F5F1286C7AE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>192.168.0.33:Froebel/iOS8</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FA1B44A858A3C7CC3542547A02AB4F5F1286C7AE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FA1B44A858A3C7CC3542547A02AB4F5F1286C7AE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS8</string>
+		</dict>
+	</array>
+</dict>
+</plist>

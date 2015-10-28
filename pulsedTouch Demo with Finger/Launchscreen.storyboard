@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zCy-wQ-CWM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Yh0-aF-CaV">
+            <objects>
+                <viewController id="zCy-wQ-CWM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wse-Np-D2P"/>
+                        <viewControllerLayoutGuide type="bottom" id="TBo-dU-Eh3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8IS-ud-PvB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test app for the STABILO SMART up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ww8-Bd-meD">
+                                <rect key="frame" x="76" y="283" width="448.5" height="33.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stabilo-Balken" translatesAutoresizingMaskIntoConstraints="NO" id="g1x-QR-MVc">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="g1x-QR-MVc" secondAttribute="height" multiplier="100:11" id="pA1-96-M0M"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ww8-Bd-meD" firstAttribute="centerX" secondItem="8IS-ud-PvB" secondAttribute="centerX" id="JsR-Ba-BaB"/>
+                            <constraint firstItem="g1x-QR-MVc" firstAttribute="leading" secondItem="8IS-ud-PvB" secondAttribute="leadingMargin" constant="-20" id="dNr-Bh-RNA"/>
+                            <constraint firstItem="g1x-QR-MVc" firstAttribute="top" secondItem="8IS-ud-PvB" secondAttribute="topMargin" id="r7f-Zm-Qy7"/>
+                            <constraint firstItem="g1x-QR-MVc" firstAttribute="centerX" secondItem="8IS-ud-PvB" secondAttribute="centerX" id="sWd-8l-4ck"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g1x-QR-MVc" secondAttribute="trailing" constant="-20" id="uoV-xj-Dx4"/>
+                            <constraint firstItem="ww8-Bd-meD" firstAttribute="centerY" secondItem="8IS-ud-PvB" secondAttribute="centerY" id="zic-yI-Xsu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f9D-02-vyx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="793" y="365"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Stabilo-Balken" width="1024" height="108"/>
+    </resources>
+</document>
