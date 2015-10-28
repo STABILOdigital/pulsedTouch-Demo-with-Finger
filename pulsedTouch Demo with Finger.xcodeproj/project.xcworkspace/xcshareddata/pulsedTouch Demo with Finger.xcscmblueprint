@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F5543B4F3FA47B5F075E7D72DA101846F88723BE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F5543B4F3FA47B5F075E7D72DA101846F88723BE" : 0,
+    "FA1B44A858A3C7CC3542547A02AB4F5F1286C7AE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "19BB4B5E-8EFF-49D2-AF35-C8F3FAFE8478",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F5543B4F3FA47B5F075E7D72DA101846F88723BE" : "pulsedTouch%20Demo%20with%20Finger\/",
+    "FA1B44A858A3C7CC3542547A02AB4F5F1286C7AE" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "pulsedTouch Demo with Finger",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "pulsedTouch Demo with Finger.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/STABILOdigital\/pulsedTouch-Demo-with-Finger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F5543B4F3FA47B5F075E7D72DA101846F88723BE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.0.33:Froebel\/iOS8",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FA1B44A858A3C7CC3542547A02AB4F5F1286C7AE"
+    }
+  ]
+}

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D02290E21BC2D32E005CE4B1 /* SID_PulsedTouchRecognizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02C0F3D1BBEB13600B61303 /* SID_PulsedTouchRecognizer.framework */; };
+		D018F1351BE0F467002420BD /* SID_PulsedTouchRecognizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D018F1341BE0F467002420BD /* SID_PulsedTouchRecognizer.framework */; };
 		D02C0F071BBEAFB700B61303 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F061BBEAFB700B61303 /* main.m */; };
 		D02C0F0A1BBEAFB700B61303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F091BBEAFB700B61303 /* AppDelegate.m */; };
 		D02C0F0D1BBEAFB700B61303 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F0C1BBEAFB700B61303 /* MasterViewController.m */; };
@@ -33,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D018F1341BE0F467002420BD /* SID_PulsedTouchRecognizer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SID_PulsedTouchRecognizer.framework; sourceTree = "<group>"; };
 		D02C0F011BBEAFB700B61303 /* pulsedTouch Demo with Finger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pulsedTouch Demo with Finger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02C0F051BBEAFB700B61303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D02C0F061BBEAFB700B61303 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02290E21BC2D32E005CE4B1 /* SID_PulsedTouchRecognizer.framework in Frameworks */,
+				D018F1351BE0F467002420BD /* SID_PulsedTouchRecognizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +82,7 @@
 		D02C0EF81BBEAFB700B61303 = {
 			isa = PBXGroup;
 			children = (
+				D018F1341BE0F467002420BD /* SID_PulsedTouchRecognizer.framework */,
 				D02C0F3D1BBEB13600B61303 /* SID_PulsedTouchRecognizer.framework */,
 				D02C0F031BBEAFB700B61303 /* pulsedTouch Demo with Finger */,
 				D02C0F201BBEAFB700B61303 /* pulsedTouch Demo with FingerTests */,
@@ -365,10 +367,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/Peter/Desktop,
-				);
 				INFOPLIST_FILE = "pulsedTouch Demo with Finger/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -381,10 +379,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/Peter/Desktop,
-				);
 				INFOPLIST_FILE = "pulsedTouch Demo with Finger/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
