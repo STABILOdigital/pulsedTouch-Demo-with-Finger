@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D02C0F071BBEAFB700B61303 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F061BBEAFB700B61303 /* main.m */; };
-		D02C0F0A1BBEAFB700B61303 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F091BBEAFB700B61303 /* AppDelegate.m */; };
-		D02C0F0D1BBEAFB700B61303 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F0C1BBEAFB700B61303 /* MasterViewController.m */; };
-		D02C0F101BBEAFB700B61303 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F0F1BBEAFB700B61303 /* DetailViewController.m */; };
-		D02C0F151BBEAFB700B61303 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02C0F141BBEAFB700B61303 /* Images.xcassets */; };
 		D02C0F241BBEAFB700B61303 /* pulsedTouch_Demo_with_FingerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F231BBEAFB700B61303 /* pulsedTouch_Demo_with_FingerTests.m */; };
-		D02C0F2F1BBEB06400B61303 /* Launchscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02C0F2D1BBEB06400B61303 /* Launchscreen.storyboard */; };
-		D02C0F301BBEB06400B61303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02C0F2E1BBEB06400B61303 /* Main.storyboard */; };
-		D02C0F391BBEB10300B61303 /* PaintSplines.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F321BBEB10300B61303 /* PaintSplines.m */; };
-		D02C0F3A1BBEB10300B61303 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F341BBEB10300B61303 /* PaintView.m */; };
-		D02C0F3B1BBEB10300B61303 /* PaintViewLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F361BBEB10300B61303 /* PaintViewLine.m */; };
-		D02C0F3C1BBEB10300B61303 /* PaintViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F381BBEB10300B61303 /* PaintViewData.m */; };
 		F33F2A4D1BE16F270039158F /* SID_PulsedTouchRecognizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33F2A4C1BE16F270039158F /* SID_PulsedTouchRecognizer.framework */; };
+		F33F2A811BE185A70039158F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F2A741BE185A70039158F /* DetailViewController.m */; };
+		F33F2A821BE185A70039158F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F2A761BE185A70039158F /* MasterViewController.m */; };
+		F33F2A831BE185A70039158F /* PaintSplines.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F2A791BE185A70039158F /* PaintSplines.m */; };
+		F33F2A841BE185A70039158F /* PaintViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F2A7B1BE185A70039158F /* PaintViewData.m */; };
+		F33F2A851BE185A70039158F /* PaintViewLine.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F2A7D1BE185A70039158F /* PaintViewLine.m */; };
+		F33F2A861BE185A70039158F /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F2A801BE185A70039158F /* PaintView.m */; };
+		F33F2A8B1BE185BB0039158F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F33F2A881BE185BB0039158F /* Images.xcassets */; };
+		F33F2A8C1BE185BB0039158F /* Launchscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33F2A891BE185BB0039158F /* Launchscreen.storyboard */; };
+		F33F2A8D1BE185BB0039158F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F33F2A8A1BE185BB0039158F /* Main.storyboard */; };
+		F33F2A901BE185E30039158F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F33F2A8F1BE185E30039158F /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,27 +36,27 @@
 		D02C0F011BBEAFB700B61303 /* pulsedTouch Demo with Finger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pulsedTouch Demo with Finger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02C0F051BBEAFB700B61303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D02C0F061BBEAFB700B61303 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D02C0F081BBEAFB700B61303 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D02C0F091BBEAFB700B61303 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D02C0F0B1BBEAFB700B61303 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		D02C0F0C1BBEAFB700B61303 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		D02C0F0E1BBEAFB700B61303 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		D02C0F0F1BBEAFB700B61303 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		D02C0F141BBEAFB700B61303 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D02C0F1D1BBEAFB700B61303 /* pulsedTouch Demo with FingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pulsedTouch Demo with FingerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02C0F221BBEAFB700B61303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D02C0F231BBEAFB700B61303 /* pulsedTouch_Demo_with_FingerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pulsedTouch_Demo_with_FingerTests.m; sourceTree = "<group>"; };
-		D02C0F2D1BBEB06400B61303 /* Launchscreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launchscreen.storyboard; sourceTree = "<group>"; };
-		D02C0F2E1BBEB06400B61303 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		D02C0F311BBEB10300B61303 /* PaintSplines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintSplines.h; sourceTree = "<group>"; };
-		D02C0F321BBEB10300B61303 /* PaintSplines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintSplines.m; sourceTree = "<group>"; };
-		D02C0F331BBEB10300B61303 /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
-		D02C0F341BBEB10300B61303 /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
-		D02C0F351BBEB10300B61303 /* PaintViewLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintViewLine.h; sourceTree = "<group>"; };
-		D02C0F361BBEB10300B61303 /* PaintViewLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintViewLine.m; sourceTree = "<group>"; };
-		D02C0F371BBEB10300B61303 /* PaintViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintViewData.h; sourceTree = "<group>"; };
-		D02C0F381BBEB10300B61303 /* PaintViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintViewData.m; sourceTree = "<group>"; };
 		F33F2A4C1BE16F270039158F /* SID_PulsedTouchRecognizer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SID_PulsedTouchRecognizer.framework; path = Frameworks/SID_PulsedTouchRecognizer.framework; sourceTree = "<group>"; };
+		F33F2A731BE185A70039158F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F33F2A741BE185A70039158F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F33F2A751BE185A70039158F /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		F33F2A761BE185A70039158F /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		F33F2A781BE185A70039158F /* PaintSplines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintSplines.h; sourceTree = "<group>"; };
+		F33F2A791BE185A70039158F /* PaintSplines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintSplines.m; sourceTree = "<group>"; };
+		F33F2A7A1BE185A70039158F /* PaintViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintViewData.h; sourceTree = "<group>"; };
+		F33F2A7B1BE185A70039158F /* PaintViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintViewData.m; sourceTree = "<group>"; };
+		F33F2A7C1BE185A70039158F /* PaintViewLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintViewLine.h; sourceTree = "<group>"; };
+		F33F2A7D1BE185A70039158F /* PaintViewLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintViewLine.m; sourceTree = "<group>"; };
+		F33F2A7F1BE185A70039158F /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		F33F2A801BE185A70039158F /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
+		F33F2A881BE185BB0039158F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F33F2A891BE185BB0039158F /* Launchscreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launchscreen.storyboard; sourceTree = "<group>"; };
+		F33F2A8A1BE185BB0039158F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F33F2A8E1BE185E30039158F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "pulsedTouch Demo with Finger/Classes/AppDelegate.h"; sourceTree = "<group>"; };
+		F33F2A8F1BE185E30039158F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "pulsedTouch Demo with Finger/Classes/AppDelegate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +83,8 @@
 			children = (
 				F33F2A4C1BE16F270039158F /* SID_PulsedTouchRecognizer.framework */,
 				D02C0F031BBEAFB700B61303 /* pulsedTouch Demo with Finger */,
+				F33F2A8E1BE185E30039158F /* AppDelegate.h */,
+				F33F2A8F1BE185E30039158F /* AppDelegate.m */,
 				D02C0F201BBEAFB700B61303 /* pulsedTouch Demo with FingerTests */,
 				D02C0F021BBEAFB700B61303 /* Products */,
 			);
@@ -100,15 +102,10 @@
 		D02C0F031BBEAFB700B61303 /* pulsedTouch Demo with Finger */ = {
 			isa = PBXGroup;
 			children = (
-				D02C0F081BBEAFB700B61303 /* AppDelegate.h */,
-				D02C0F091BBEAFB700B61303 /* AppDelegate.m */,
-				D02C0F0B1BBEAFB700B61303 /* MasterViewController.h */,
-				D02C0F0C1BBEAFB700B61303 /* MasterViewController.m */,
-				D02C0F0E1BBEAFB700B61303 /* DetailViewController.h */,
-				D02C0F0F1BBEAFB700B61303 /* DetailViewController.m */,
-				D02C0F2D1BBEB06400B61303 /* Launchscreen.storyboard */,
-				D02C0F2E1BBEB06400B61303 /* Main.storyboard */,
-				D02C0F141BBEAFB700B61303 /* Images.xcassets */,
+				F33F2A721BE185A70039158F /* Controllers */,
+				F33F2A771BE185A70039158F /* Model */,
+				F33F2A7E1BE185A70039158F /* Views */,
+				F33F2A871BE185BB0039158F /* Resources */,
 				D02C0F041BBEAFB700B61303 /* Supporting Files */,
 			);
 			path = "pulsedTouch Demo with Finger";
@@ -117,14 +114,6 @@
 		D02C0F041BBEAFB700B61303 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D02C0F311BBEB10300B61303 /* PaintSplines.h */,
-				D02C0F321BBEB10300B61303 /* PaintSplines.m */,
-				D02C0F331BBEB10300B61303 /* PaintView.h */,
-				D02C0F341BBEB10300B61303 /* PaintView.m */,
-				D02C0F351BBEB10300B61303 /* PaintViewLine.h */,
-				D02C0F361BBEB10300B61303 /* PaintViewLine.m */,
-				D02C0F371BBEB10300B61303 /* PaintViewData.h */,
-				D02C0F381BBEB10300B61303 /* PaintViewData.m */,
 				D02C0F051BBEAFB700B61303 /* Info.plist */,
 				D02C0F061BBEAFB700B61303 /* main.m */,
 			);
@@ -146,6 +135,52 @@
 				D02C0F221BBEAFB700B61303 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F33F2A721BE185A70039158F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F33F2A731BE185A70039158F /* DetailViewController.h */,
+				F33F2A741BE185A70039158F /* DetailViewController.m */,
+				F33F2A751BE185A70039158F /* MasterViewController.h */,
+				F33F2A761BE185A70039158F /* MasterViewController.m */,
+			);
+			name = Controllers;
+			path = Classes/Controllers;
+			sourceTree = "<group>";
+		};
+		F33F2A771BE185A70039158F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F33F2A781BE185A70039158F /* PaintSplines.h */,
+				F33F2A791BE185A70039158F /* PaintSplines.m */,
+				F33F2A7A1BE185A70039158F /* PaintViewData.h */,
+				F33F2A7B1BE185A70039158F /* PaintViewData.m */,
+				F33F2A7C1BE185A70039158F /* PaintViewLine.h */,
+				F33F2A7D1BE185A70039158F /* PaintViewLine.m */,
+			);
+			name = Model;
+			path = Classes/Model;
+			sourceTree = "<group>";
+		};
+		F33F2A7E1BE185A70039158F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F33F2A7F1BE185A70039158F /* PaintView.h */,
+				F33F2A801BE185A70039158F /* PaintView.m */,
+			);
+			name = Views;
+			path = Classes/Views;
+			sourceTree = "<group>";
+		};
+		F33F2A871BE185BB0039158F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F33F2A881BE185BB0039158F /* Images.xcassets */,
+				F33F2A891BE185BB0039158F /* Launchscreen.storyboard */,
+				F33F2A8A1BE185BB0039158F /* Main.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +263,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02C0F301BBEB06400B61303 /* Main.storyboard in Resources */,
-				D02C0F2F1BBEB06400B61303 /* Launchscreen.storyboard in Resources */,
-				D02C0F151BBEAFB700B61303 /* Images.xcassets in Resources */,
+				F33F2A8D1BE185BB0039158F /* Main.storyboard in Resources */,
+				F33F2A8B1BE185BB0039158F /* Images.xcassets in Resources */,
+				F33F2A8C1BE185BB0039158F /* Launchscreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02C0F3B1BBEB10300B61303 /* PaintViewLine.m in Sources */,
-				D02C0F0A1BBEAFB700B61303 /* AppDelegate.m in Sources */,
-				D02C0F0D1BBEAFB700B61303 /* MasterViewController.m in Sources */,
-				D02C0F3C1BBEB10300B61303 /* PaintViewData.m in Sources */,
+				F33F2A851BE185A70039158F /* PaintViewLine.m in Sources */,
+				F33F2A821BE185A70039158F /* MasterViewController.m in Sources */,
 				D02C0F071BBEAFB700B61303 /* main.m in Sources */,
-				D02C0F101BBEAFB700B61303 /* DetailViewController.m in Sources */,
-				D02C0F391BBEB10300B61303 /* PaintSplines.m in Sources */,
-				D02C0F3A1BBEB10300B61303 /* PaintView.m in Sources */,
+				F33F2A811BE185A70039158F /* DetailViewController.m in Sources */,
+				F33F2A901BE185E30039158F /* AppDelegate.m in Sources */,
+				F33F2A861BE185A70039158F /* PaintView.m in Sources */,
+				F33F2A831BE185A70039158F /* PaintSplines.m in Sources */,
+				F33F2A841BE185A70039158F /* PaintViewData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
