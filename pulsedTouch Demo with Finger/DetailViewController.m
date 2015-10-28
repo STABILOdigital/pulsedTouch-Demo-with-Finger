@@ -33,9 +33,7 @@
 
 #define DAMPING 0.7
 
-NSString *const SID_PenModeNotification   = @"SID_PenModeNotification";
-NSString *const SID_LineEndedNotification = @"SID_LineEndedNotification";
-NSString *const SID_RectNotification      = @"SID_RectNotification";
+static NSString *const SID_RectNotification      = @"SID_RectNotification";
 
 @implementation DetailViewController
 
