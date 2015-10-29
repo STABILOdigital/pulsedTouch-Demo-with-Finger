@@ -29,7 +29,3 @@
 - (void)    startRecording;
 
 @end
-
-NSString *const SID_RectNotification;
-NSString *const SID_PenModeNotification;
-NSString *const SID_LineEndedNotification;

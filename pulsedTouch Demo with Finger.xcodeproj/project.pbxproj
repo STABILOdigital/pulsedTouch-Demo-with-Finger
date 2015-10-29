@@ -20,6 +20,7 @@
 		D02C0F3A1BBEB10300B61303 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F341BBEB10300B61303 /* PaintView.m */; };
 		D02C0F3B1BBEB10300B61303 /* PaintViewLine.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F361BBEB10300B61303 /* PaintViewLine.m */; };
 		D02C0F3C1BBEB10300B61303 /* PaintViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C0F381BBEB10300B61303 /* PaintViewData.m */; };
+		D05D8B181BE2426200D3D914 /* SID_PulsedTouchRecognizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D018F1341BE0F467002420BD /* SID_PulsedTouchRecognizer.framework */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D018F1341BE0F467002420BD /* SID_PulsedTouchRecognizer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SID_PulsedTouchRecognizer.framework; sourceTree = "<group>"; };
+		D018F1341BE0F467002420BD /* SID_PulsedTouchRecognizer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SID_PulsedTouchRecognizer.framework; sourceTree = SOURCE_ROOT; };
 		D02C0F011BBEAFB700B61303 /* pulsedTouch Demo with Finger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pulsedTouch Demo with Finger.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02C0F051BBEAFB700B61303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D02C0F061BBEAFB700B61303 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05D8B181BE2426200D3D914 /* SID_PulsedTouchRecognizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +283,7 @@
 		D02C0F251BBEAFB700B61303 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -300,6 +302,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -315,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -326,7 +330,7 @@
 		D02C0F261BBEAFB700B61303 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,6 +349,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -353,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -366,7 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "pulsedTouch Demo with Finger/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SID.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,7 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "pulsedTouch Demo with Finger/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SID.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -392,6 +397,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -412,6 +418,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "pulsedTouch Demo with FingerTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

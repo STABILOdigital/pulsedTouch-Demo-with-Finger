@@ -33,10 +33,6 @@
 
 #define DAMPING 0.7
 
-NSString *const SID_PenModeNotification   = @"SID_PenModeNotification";
-NSString *const SID_LineEndedNotification = @"SID_LineEndedNotification";
-NSString *const SID_RectNotification      = @"SID_RectNotification";
-
 @implementation DetailViewController
 
 #pragma mark - Managing the UI
@@ -95,17 +91,17 @@ NSString *const SID_RectNotification      = @"SID_RectNotification";
     // One observer for setting the penMode:
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(applyPenMode:)
-                                                 name:SID_PenModeNotification
+                                                 name:@"SID_PenModeNotification"
                                                object:nil];
     // one for the line ended message:
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(endLine:)
-                                                 name:SID_LineEndedNotification
+                                                 name:@"SID_LineEndedNotification"
                                                object:nil];
     // and one observer for processed rects:
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(processedRects:)
-                                                 name:SID_RectNotification
+                                                 name:@"SID_RectNotification"
                                                object:nil];
 }
 
