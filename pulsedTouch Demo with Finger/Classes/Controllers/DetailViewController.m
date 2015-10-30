@@ -33,8 +33,6 @@
 
 #define DAMPING 0.7
 
-static NSString *const SID_RectNotification      = @"SID_RectNotification";
-
 @implementation DetailViewController
 
 #pragma mark - Managing the UI
@@ -93,17 +91,17 @@ static NSString *const SID_RectNotification      = @"SID_RectNotification";
     // One observer for setting the penMode:
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(applyPenMode:)
-                                                 name:SID_PenModeNotification
+                                                 name:@"SID_PenModeNotification"
                                                object:nil];
     // one for the line ended message:
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(endLine:)
-                                                 name:SID_LineEndedNotification
+                                                 name:@"SID_LineEndedNotification"
                                                object:nil];
     // and one observer for processed rects:
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(processedRects:)
-                                                 name:SID_RectNotification
+                                                 name:@"SID_RectNotification"
                                                object:nil];
 }
 
@@ -398,7 +396,7 @@ static NSString *const SID_RectNotification      = @"SID_RectNotification";
             if (lastTouch.classification == 2 || lastTouch.classification == 6) {
                 [self setLine:line inLayer:layer toMode:9L];
 
-                // Only use half the extrapolation to get better results:
+            // Only use half the extrapolation to get better results:
             } else if (lastTouch.classification > 3 && length > 1) {
                 SID_Touch *lastTrueTouch = lineIncr[length-2];
                 lastTouch.point = CGPointMake(0.5*(lastTrueTouch.point.x + lastTouch.point.x),
@@ -408,17 +406,17 @@ static NSString *const SID_RectNotification      = @"SID_RectNotification";
             
             if (length > 0) {
 
-            // Extend the line by all non-extrapolated points:
+                // Extend the line by all non-extrapolated points:
                 for (NSUInteger j = 0; j < length; j++) {
-                SID_Touch *touch = [lineIncr objectAtIndex:j];
-                
+                    SID_Touch *touch = [lineIncr objectAtIndex:j];
+                    
                     // Update the parameters for the stored path:
-                if (touch.classification < 3) {
-                    [line.touches addObject:touch];
-                    self.lineSpeed = DAMPING * self.lineSpeed + (1.0 - DAMPING) * (touch.velocity.x + touch.velocity.y);
+                    if (touch.classification < 3) {
+                        [line.touches addObject:touch];
+                        self.lineSpeed = DAMPING * self.lineSpeed + (1.0 - DAMPING) * (touch.velocity.x + touch.velocity.y);
+                    }
                 }
-            }
-                
+
                 // Update the parameters for the UI:
                 NSMutableArray *points = [self.paint.splinefunc splineIncrement:lineIncr forLine:line.touches];
                 
